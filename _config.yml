@@ -198,6 +198,13 @@ compress_html:
   ignore:
     envs: [development]
 
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-include-cache
+
 exclude:
   - "*.gem"
   - "*.gemspec"
