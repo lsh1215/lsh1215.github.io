@@ -34,7 +34,7 @@ JVM(Java Virtual Machine)은 메모리를 크게 **3개의 주요 영역**으로
 
 메서드가 호출될 때마다 **스택 프레임**이라는 독립적인 공간이 생성된다.
 
-![스택 프레임 구조](/assets/img/posts/2025-03-30-java-memory-structure/jvm_2.png)
+<img src="/assets/img/posts/2025-03-30-java-memory-structure/jvm_2.png" alt="스택 프레임 구조" width="50%" style="max-width: 400px; height: auto;">
 
 ```java
 public class StackExample {
