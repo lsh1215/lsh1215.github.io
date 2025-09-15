@@ -2,7 +2,7 @@
 title: "자바 main 메서드와 Spring 어노테이션 [CS 면접 박살내기]"
 date: 2025-03-16 10:00:00 +0900
 categories: [CS 면접 박살내기]
-tags: [Java, Spring, main method, @SpringBootApplication, @Configuration, 면접준비]
+tags: [Java, Spring, main method, '@SpringBootApplication', 면접준비]
 ---
 
 # 자바 main 메서드와 Spring 어노테이션
