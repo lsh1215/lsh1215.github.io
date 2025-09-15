@@ -87,7 +87,7 @@ public void example() {
 - **동적 할당**: 런타임에 크기가 결정됨
 - **상대적으로 느림**: 스택에 비해 접근 속도가 느림
 
-![힙 영역 구조](/assets/img/posts/2025-03-30-java-memory-structure/heap_1.png)
+![힙 영역 구조](/assets/img/posts/2025-03-30-java-memory-structure/heap_1.webp)
 
 ### 힙에서의 객체 저장
 
