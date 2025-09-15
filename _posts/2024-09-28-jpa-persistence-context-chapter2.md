@@ -1,6 +1,6 @@
 ---
 title: "JPA와 영속성 컨텍스트(Chapter 2)"
-date: 2024-09-28 10:00:00 +0900
+date: 2024-09-28 20:00:00 +0900
 categories: [Spring]
 tags: [Spring, JPA, Persistence Context, Dirty Checking, Cache]
 ---
@@ -16,7 +16,7 @@ tags: [Spring, JPA, Persistence Context, Dirty Checking, Cache]
 
 ![해커톤 개요](/assets/img/posts/2024-09-28-jpa-persistence-context/jpa_1.png)
 
-https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend
+[Good Night 3rd Hackathon Backend](https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend)
 
 피드백을 통해 JPA에 대한 이해도가 떨어진다는 것을 알았고, 이를 해결하기 위해 JPA의 영속성 컨텍스트에 대해 개념적인 내용을 공부했다. 엔티티 매니저 팩토리와 엔티티 매니저, 트랜잭션, 영속성 컨텍스트의 기본 개념이 그 내용이다.
 

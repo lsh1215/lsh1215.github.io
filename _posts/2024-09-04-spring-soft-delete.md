@@ -14,10 +14,10 @@ tags: [Spring, Soft Delete, JPA, Hackathon]
 
 ![해커톤 개요](/assets/img/posts/2024-09-04-spring-soft-delete/hackathon.png)
 
-https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend
+[Good Night 3rd Hackathon Backend](https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend)
 
 피드백 중 소프트 삭제와 관련된 피드백을 받았고, 이에 대한 내용을 공유하고자 한다.
-https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend/pull/10
+[소프트 삭제 피드백 PR](https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend/pull/10)
 
 ## 내가 구현한 소프트 삭제(기존 코드)
 
@@ -60,7 +60,7 @@ public class Comment extends BaseEntity {
 
 해당 부분에 대해 실무에서 많이 사용하는 방법에 대해 궁금해져서 좀 더 찾아보다가 인프런 강의 질문에 대한 김영한님의 답변을 볼 수 있었다.
 
-https://www.inflearn.com/community/questions/304378/baseentity%EC%99%80-softdelete-%EC%A7%88%EB%AC%B8
+[김영한님의 BaseEntity와 SoftDelete 질문](https://www.inflearn.com/community/questions/304378/baseentity%EC%99%80-softdelete-%EC%A7%88%EB%AC%B8)
 
 ## 내가 생각하기에 좋은 방법
 

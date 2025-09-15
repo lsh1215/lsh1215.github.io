@@ -14,7 +14,7 @@ tags: [Spring, JPA, Persistence Context, Entity Manager]
 
 ![해커톤 개요](/assets/img/posts/2024-09-28-jpa-persistence-context/jpa_1.png)
 
-https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend
+[Good Night 3rd Hackathon Backend](https://github.com/techeer-sv/Good-Night-3rd-Hackathon-Backend)
 
 지난 소프트 삭제 피드백과 함께 서비스 로직 중 데이터 업데이트는 하는 로직에서 상태 변경이 save() 함수 없이도 업데이트가 일어난다는 피드백을 받았다. 하지만 JPA에 대한 이해도가 떨어지다보니 더티 체킹이 뭔지 왜 save()가 없어도 되는 지를 이해하지 못했고, 공부한 내용을 바탕으로 얘기해보고자 한다.
 
