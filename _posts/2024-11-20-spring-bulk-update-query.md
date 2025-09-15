@@ -263,5 +263,5 @@ public class AdminController {
 ---
 
 **관련 포스트:**
-- [JPA와 영속성 컨텍스트(Chapter 1)](/posts/2024-09-28-jpa-persistence-context/)
-- [JPA와 영속성 컨텍스트(Chapter 2)](/posts/2024-09-28-jpa-persistence-context-chapter2/)
+- [JPA와 영속성 컨텍스트(Chapter 1)](/posts/jpa-persistence-context/)
+- [JPA와 영속성 컨텍스트(Chapter 2)](/posts/jpa-persistence-context-chapter2/)
