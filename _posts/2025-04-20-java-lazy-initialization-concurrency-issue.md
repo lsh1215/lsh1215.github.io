@@ -33,12 +33,14 @@ private FieldType getField() {
 
 ### 이슈 제기와 수정
 
-2019년 8월, 한 개발자가 이 코드의 문제점을 지적했다:
+[issue #8](https://github.com/jbloch/effective-java-3e-source-code/issues/8)
+
+2019년 8월, 한 개발자가 이 코드의 문제점을 지적했다
 
 ![Issue](/assets/img/posts/2025-04-20-java-lazy-initialization-concurrency-issue/lazy_1.png)
 
 
-Joshua Bloch는 이 문제를 인정하고 다음과 같이 답변했다:
+Joshua Bloch는 이 문제를 인정하고 다음과 같이 답변했다
 
 ![Comment](/assets/img/posts/2025-04-20-java-lazy-initialization-concurrency-issue/lazy_2.png)
 
