@@ -51,62 +51,62 @@ return 해시코드 = 버킷의 인덱스
 <details>
 <summary>해시 테이블 구현 코드 (클릭하여 펼치기)</summary>
 
-    ```java
-    // 기본적인 해시 테이블 구현
-    public class Hash {
+```java
+// 기본적인 해시 테이블 구현
+public class Hash {
 
-        // Hash table
-        public Slot[] hashTable; // 배열 형태로 선언
+    // Hash table
+    public Slot[] hashTable; // 배열 형태로 선언
 
-        // Hash 객체를 생성할 때 table 사이즈 지정
-        public Hash(Integer size) {
-            this.hashTable = new Slot[size];
-        }
-
-        // Slot에는 value를 가짐
-        public class Slot {
-
-            String value;
-
-            Slot(String value) {
-                this.value = value;
-            }
-        }
-
-        //Hash function
-        public int hashFunction(String key) {
-            return (int)(key.charAt(0)) % this.hashTable.length; // 나머지
-        }
-
-        // 입력 받은 key를 해시 함수로 인덱스화 하고, 해당 인덱스에 value 저장
-       public boolean saveData(String key, String value) {
-
-    		// key는 해시 함수를 거쳐서 해시 값(해시, 해시 주소)을 반환 -> 여기선 배열의 index와 동일
-            Integer address = this.hashFunction(key);
-
-    		if(this.hashTable[address] != null) { // 해당 주소에 이미 데이터가 있을 경우
-            	this.hashTable[address].value = value;
-            } else {
-            	this.hashTable[address] = new Slot(value);
-            }
-
-            return true;
-        }
-
-    	// key에 해당하는 값을 반환
-        public String getData(String key) {
-
-    		// key는 해시 함수를 거쳐서 해시 값(해시, 해시 주소)을 반환
-            Integer address = this.hashFunction(key);
-
-            if(this.hashTable[address] != null) {
-                return this.hashTable[address].value;
-            } else {
-                return null;
-            }
-       }
+    // Hash 객체를 생성할 때 table 사이즈 지정
+    public Hash(Integer size) {
+        this.hashTable = new Slot[size];
     }
-    ```
+
+    // Slot에는 value를 가짐
+    public class Slot {
+
+        String value;
+
+        Slot(String value) {
+            this.value = value;
+        }
+    }
+
+    //Hash function
+    public int hashFunction(String key) {
+        return (int)(key.charAt(0)) % this.hashTable.length; // 나머지
+    }
+
+    // 입력 받은 key를 해시 함수로 인덱스화 하고, 해당 인덱스에 value 저장
+   public boolean saveData(String key, String value) {
+
+		// key는 해시 함수를 거쳐서 해시 값(해시, 해시 주소)을 반환 -> 여기선 배열의 index와 동일
+        Integer address = this.hashFunction(key);
+
+		if(this.hashTable[address] != null) { // 해당 주소에 이미 데이터가 있을 경우
+        	this.hashTable[address].value = value;
+        } else {
+        	this.hashTable[address] = new Slot(value);
+        }
+
+        return true;
+    }
+
+	// key에 해당하는 값을 반환
+    public String getData(String key) {
+
+		// key는 해시 함수를 거쳐서 해시 값(해시, 해시 주소)을 반환
+        Integer address = this.hashFunction(key);
+
+        if(this.hashTable[address] != null) {
+            return this.hashTable[address].value;
+        } else {
+            return null;
+        }
+   }
+}
+```
 
 </details>
 
@@ -150,7 +150,7 @@ HashSet의 내부는 HashMap으로 구현되어 있다. 데이터를 저장할 �
 
 load factor가 너무 작으면, 아직 많이 쓰지도 않았는데 저장 공간을 키워 빈 공간이 많이 남아 비효율적일 위험이 크다.
 
-출처 : https://kang-james.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%95%B4%EC%8B%9CHASH-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+출처 : [해시(HASH) 알아보기](https://kang-james.tistory.com/entry/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%95%B4%EC%8B%9CHASH-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0)
 
 ## TreeSet
 
