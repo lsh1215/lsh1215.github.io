@@ -2,7 +2,7 @@
 title: "Facade 패턴 도입, 외부 연동과 DB 연동"
 date: 2024-12-14 10:00:00 +0900
 categories: [Spring]
-tags: [Facade, 디자인패턴, Spring, Service, 의존성, 트랜잭션, 아키텍처, 리팩토링]
+tags: [Spring, 디자인패턴, Facade, Service, 트랜잭션, 아키텍처, 리팩토링]
 ---
 
 # Facade 패턴 도입, 외부 연동과 DB 연동

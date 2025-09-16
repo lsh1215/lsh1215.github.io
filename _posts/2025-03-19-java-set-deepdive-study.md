@@ -2,7 +2,7 @@
 title: "Set in java (deepdive study)"
 date: 2025-03-19 14:00:00 +0900
 categories: [Java]
-tags: [Java, Set, HashSet, TreeSet, 자료구조, 성능, 해시테이블, Red-Black Tree]
+tags: [Java, Set, HashSet, TreeSet, 자료구조, 해시테이블, Red-Black Tree]
 ---
 
 # Set

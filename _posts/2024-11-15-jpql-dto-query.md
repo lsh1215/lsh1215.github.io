@@ -2,7 +2,7 @@
 title: "JPQL로 DTO 조회하기"
 date: 2024-11-15 10:00:00 +0900
 categories: [Spring]
-tags: [Spring, JPA, JPQL, DTO, Query, 성능최적화, 데이터조회]
+tags: [Spring, JPA, JPQL, DTO, Query, 성능최적화]
 ---
 
 # JPQL로 DTO 조회하기

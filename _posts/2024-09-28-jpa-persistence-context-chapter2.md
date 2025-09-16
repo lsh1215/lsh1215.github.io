@@ -2,7 +2,7 @@
 title: "JPA와 영속성 컨텍스트(Chapter 2)"
 date: 2024-09-28 20:00:00 +0900
 categories: [Spring]
-tags: [Spring, JPA, Persistence Context, Dirty Checking, Cache]
+tags: [Spring, JPA, Persistence Context, Dirty Checking, Cache, Hackathon]
 ---
 
 # JPA와 영속성 컨텍스트(Chapter 2)

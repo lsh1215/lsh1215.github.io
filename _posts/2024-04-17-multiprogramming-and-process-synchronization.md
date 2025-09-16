@@ -2,7 +2,7 @@
 title: "다중 프로그래밍과 동기화"
 date: 2024-04-17 10:00:00 +0900
 categories: [Operating System]
-tags: [OS, 다중프로그래밍, 프로세스, 스레드, 동기화, 임계구역, 멀티코어]
+tags: [Operating System, 프로세스, 스레드, 동기화, 멀티코어]
 ---
 
 # 다중 프로그래밍과 동기화

@@ -2,7 +2,7 @@
 title: "프로젝트에 모니터링 툴 구축하기"
 date: 2024-05-29 10:00:00 +0900
 categories: [DevOps]
-tags: [모니터링, Prometheus, Grafana, Spring Boot, Actuator, Docker, DevOps]
+tags: [모니터링, Prometheus, Grafana, Docker, DevOps]
 ---
 
 # 프로젝트에 모니터링 툴 구축하기

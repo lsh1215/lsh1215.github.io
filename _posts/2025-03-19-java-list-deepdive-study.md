@@ -2,7 +2,7 @@
 title: "List in java (deepdive study)"
 date: 2025-03-19 10:00:00 +0900
 categories: [Java]
-tags: [Java, List, ArrayList, LinkedList, 자료구조, 성능, 멀티스레드]
+tags: [Java, List, ArrayList, LinkedList, 자료구조, 멀티스레드]
 ---
 
 # List in java (deepdive study)

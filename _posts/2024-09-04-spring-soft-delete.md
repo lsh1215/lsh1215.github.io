@@ -2,7 +2,7 @@
 title: "Spring 좋은 소프트 삭제 구현하기"
 date: 2024-09-04 10:00:00 +0900
 categories: [Spring]
-tags: [Spring, Soft Delete, JPA, Hackathon]
+tags: [Spring, JPA, Soft Delete, Hackathon]
 ---
 
 # Spring 좋은 소프트 삭제 구현하기

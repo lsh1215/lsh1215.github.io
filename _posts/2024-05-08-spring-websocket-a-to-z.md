@@ -2,7 +2,7 @@
 title: "Spring+WebSocket A to Z"
 date: 2024-05-08 10:00:00 +0900
 categories: [Spring]
-tags: [Spring, WebSocket, STOMP, 실시간통신, 채팅, 양방향통신]
+tags: [Spring, WebSocket, STOMP, 실시간통신, 채팅]
 ---
 
 # Spring+WebSocket A to Z

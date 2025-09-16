@@ -2,7 +2,7 @@
 title: "Page 사용과 count 분리 그리고 Slice"
 date: 2024-11-18 10:00:00 +0900
 categories: [Spring]
-tags: [Spring, JPA, Pagination, Page, Slice, 성능최적화, 데이터조회]
+tags: [Spring, JPA, Pagination, Page, Slice, 성능최적화]
 ---
 
 # Page 사용과 count 분리 그리고 Slice

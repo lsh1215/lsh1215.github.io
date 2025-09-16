@@ -2,7 +2,7 @@
 title: "Redis 이 정도는 알고 쓰자"
 date: 2024-10-25 10:00:00 +0900
 categories: [Database]
-tags: [Redis, NoSQL, 캐싱, 메모리, 데이터베이스, 성능최적화]
+tags: [Redis, NoSQL, 캐싱, Database, 성능최적화]
 ---
 
 # Redis 이 정도는 알고 쓰자
