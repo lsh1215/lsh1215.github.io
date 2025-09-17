@@ -169,7 +169,7 @@ Spring에서 ArrayList를 사용할 때 발생할 수 있는 동시성 문제들
 
 ThreadLocal이란 Java에서 지원하는 Thread safe한 기술로 멀티 스레드 환경에서 각각의 스레드에게 별도의 저장공간을 할당하여 별도의 상태를 갖을 수 있게끔 도와준다.
 
-<details>
+<details markdown=1>
 <summary>ThreadLocal 코드 예시 (클릭하여 펼치기)</summary>
 
 ```java
@@ -192,7 +192,7 @@ threadLocalList.remove();
 
 #### 2. 동기화된 Collection 사용
 
-<details>
+<details markdown=1>
 <summary>동기화된 Collection 코드 예시 (클릭하여 펼치기)</summary>
 
 ```java
@@ -210,7 +210,7 @@ synchronized(synchronizedList) {
 
 #### 3. Concurrent Collection 사용
 
-<details>
+<details markdown=1>
 <summary>Concurrent Collection 코드 예시 (클릭하여 펼치기)</summary>
 
 ```java

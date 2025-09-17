@@ -48,7 +48,7 @@ return 해시코드 = 버킷의 인덱스
 
 ![해시 테이블 예시](/assets/img/posts/2025-03-19-java-set-deepdive-study/set_3.png)
 
-<details>
+<details markdown=1>
 <summary>해시 테이블 구현 코드 (클릭하여 펼치기)</summary>
 
 ```java

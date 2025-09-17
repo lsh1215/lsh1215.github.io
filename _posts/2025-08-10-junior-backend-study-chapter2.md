@@ -28,7 +28,7 @@ tags: [백엔드, 실무지식, 스터디, 성능최적화, 모니터링, 캐시
 
 → 응답 데이터의 크기에 따라 차이가 커질 수 있으므로 **데이터 특성**과 **네트워크 환경**을 고려해서 적절한 지표를 확인해야 한다(단위는 밀리세컨드 ms)
 
-<details>
+<details markdown=1>
 <summary><strong>응답시간이 사업에 주는 영향 (부록)</strong></summary>
 
 ![응답시간이 사업에 주는 영향](/assets/img/posts/2025-08-10-junior-backend-study-chapter2/server_3.png)
@@ -224,7 +224,7 @@ Key, Value로 저장하는 Map 형태의 데이터 저장소이고 당연히 디
 
 많은 서비스에서 오래된 데이터보다 최신 데이터를 사용한다. 여기에 TTL 설정으로 오래된 놈들을 날리면서 효율적으로 관리해야 캐시를 잘 쓸 수 있다. 
 
-<details>
+<details markdown=1>
 <summary><strong>Redis Eviction 정책 (부록)</strong></summary>
 
 레디스는 디폴트가 삭제를 하는게 아니고 에러를 반환함.
