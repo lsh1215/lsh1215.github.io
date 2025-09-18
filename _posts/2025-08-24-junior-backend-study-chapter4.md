@@ -170,7 +170,7 @@ resilience4j:
         baseConfig: default
 ```
 
-**reference**: [Circuit Breaker](http://velog.io/@hgs-study/CircuitBreaker)
+**reference**: [Circuit Breaker](https://velog.io/@hgs-study/CircuitBreaker)
 
 ## 외부 연동과 DB 연동 🔄
 
